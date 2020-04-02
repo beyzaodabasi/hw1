@@ -1,0 +1,199 @@
+<!DOCTYPE >
+<title>JAVASCRIPT</title>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { 
+margin:0;
+font-size:100px;
+}
+
+ul {
+margin-top:0;
+padding:0;
+width:400;
+height:200;
+top:0;
+list-style-type:none;
+position:fixed;
+ }
+
+ul1{
+margin-top:0;
+padding:0;
+width:17%;
+background-color:#aabb;
+height:65%;
+list-style-type:none;
+position:fixed;
+overflow:auto;
+}
+ul2{
+list-style-type:none;
+margin-top:200;
+padding:0;
+overflow: auto;
+background-color:#aabbcc;
+position: fixed;
+top:0;
+width:200%;
+height:50;
+}
+
+
+li1 a {
+display:block;
+color:#2c4647;
+padding: 20px 8px;
+text-decoration:none;
+font-size:20px;
+}
+
+li2 a {
+display:block;
+color:#263a3d;
+padding:6px 680px;
+text-decoration:none;
+font-size:30px;
+}
+li1 a.active {
+background-color:#aabbcc;
+color: white;
+}
+
+li1 a:hover:not(.active) {
+background-color:#555;
+color:white;
+}
+
+div {
+margin-top:250;
+margin-left:19%;
+padding:1px 25px;
+height:1000px;
+font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+color:#263a3d;
+/*width:100%;
+height:100%;*/
+font-size:40px;
+text-align:left;
+margin-top:50;
+}
+
+li {
+display:inline;
+font-size:20px;
+}
+
+p {
+font-size:20px;
+color:#444444;
+}
+table, td, th{  
+  text-align: left;
+  font-size:20px;
+  margin-left:120px;
+}
+
+table {
+  width: 70%;
+}
+th {
+color:#263a3d;
+}
+td {
+color:#444444;
+}
+
+th, td{
+  padding: 8px;
+}
+
+ul1.first {
+  background: rgba(150, 150, 200, 0.3);
+}
+
+
+</style>
+
+</head>
+
+<body>
+<ul>
+<li><img src="C:\Users\BEYZA NUR\Desktop\JavaScript\outputs\image1.jpg" width="1519" height="200"></li>
+</ul>
+<ul2>
+<li2><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/JavaScript.html#">JAVASCRIPT</a></li2>
+</ul2>
+
+<ul1 class="first">
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/JavaScript.html#">GİRİŞ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/KodYap%C4%B1s%C4%B1.html">KOD YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/De%C4%9Fi%C5%9Fkenler.html">DEĞİŞKENLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/Operat%C3%B6rler.html">OPERATÖRLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/VeriTipleri.html">VERİ TİPLERİ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/FonksiyonYap%C4%B1s%C4%B1.html">FONKSİYON YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/Olaylar.html">OLAYLAR</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/String-Say%C4%B1-Dizi.html">STRİNG-SAYI-DİZİ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/IfYap%C4%B1s%C4%B1.html">IF YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/D%C3%B6ng%C3%BCler.html">DÖNGÜLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/TipD%C3%B6n%C3%BC%C5%9F%C3%BCmleri.html">TİP DÖNÜŞÜMLERİ</a></li1>
+</ul1>
+
+<div>
+<h1>JAVASCRIPT SAYI-DİZİ İŞLEMLERİ</h1>
+<p><strong><span style="color: #ff6600;">Sayısal Veriler</strong></p>
+<p>JavaScript dilinde sayılar tamsayı ya da ondalıklı sayı şeklinde yazılabilir.</p>
+<p>Sayıları üslü sayı şeklinde de yazabiliriz. Bunun için üs miktarının önüne e harfi yazılır.</p>
+<p><code><strong>var sayi1 = 3.14;</strong></code></p>
+<p><code><strong>var sayi1 = 5;</strong></code></p>
+<p><code><strong>var a = 54e4;    // 540000</strong></code></p>
+<p><code><strong>var b = 23e-4;    // 0. 023</strong></code></p>
+<p>&nbsp;</p>
+<p>Ayrıca <strong>toString()</strong> yöntemi vardır ki değişkenler üzerinde kullanılarak sayıyı farklı sayı sistemlerine göre yazar.</p>
+<p>Sayı içeren bir değişkenin sonsuz olduğunu <strong>İnfinity</strong> ya da sayı olmadığını <strong>NaN</strong> özel karakterleri gösterir.</p>
+<p><code><strong>var a= 100 / "Elma";    //Sonuç NaN olarak tanımlanır.</strong></code></p>
+<p><code><strong>var b = 10 / "5";    // Sonuç 2 çıkacaktır.</strong></code></p>
+<p>&nbsp;</p>
+<p>Bir sayısal değişkenin sayı içerip içermediğini isNaN() yöntemiyle öğreniriz.</p>
+<p><code><strong>var a= isNaN (3 / 0);    //Sonuç yanlış(false) olarak tanımlanır.</strong></code></p>
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Dizi İşlemleri</strong></p>
+<p>Diziler <strong>köşeli parantez[]</strong> ile tanımlanır ve dizi elemanları <strong>virgül(,)</strong> ile ayrılır.</p>
+<p><code><strong>var dizi1 = [1, 2, 3];</strong></code></p>
+<p><code><strong>var dizi2 = ["istanbul","ankara","izmir"];</strong></code></p>
+<p>İlk dizimiz sayısal değerler barındırdığı için içerisinde bulunan ögeler tırnak(”) işareti ile ayrılmamıştır. 
+İkinci dizi ise metin türünde bir dizi olduğu için  ögeler arasında tırnak(“) işaretine yer verilmiştir.</p>
+<p>&nbsp;</p>
+<p><strong>Dizi Değerlerini Çağırmak</strong></p>
+<p>Dizi değerlerinin her birinin kendine özgü bir indis numarası bulunur. Bu indis numaralarını istenilen dizi ögesini çağırmak için kullanırız.</p>
+<p><code><strong>var isimler=["Hakan","Hasan","Erkan","Samet"];</strong></code></p>
+<p><code><strong>var isim=isimler[1];    //Ekran Çıktısı: Hasan</strong></code></p>
+<p>&nbsp;</p>
+<p><strong>Not:</strong>Yukarıda “1” indis numaralı ögeyi çağırdık. İlk sırada “Hakan” olduğu halde “Hasan” sonucunu aldık. Dizi içerisinde indis numaraları “0” değerinden başlar. O yüzden “1” indisi “Hasan” ögesinin indis numarasıdır.</p>
+<p>&nbsp;</p>
+<p><strong>Dizideki Öğe Satırını Bulmak</strong></p>
+<p>Tanımladığımız bir dizinin kaç ögeden oluştuğunu <strong>length</strong> yöntemini kullanarak buluruz.</p>
+<p><code><strong>var markalar= ["Honda","Peugeot","Mazda"];</strong></code></p>
+<p><code><strong>var ögesayi= markalar.length;    //Ekran Çıktısı: 3</strong></code></p>
+<p>&nbsp;</p>
+<p><strong>Diziye Değer Eklemek</strong></p>
+<p>-Diziye değer eklemek için 2 farklı yöntem kullanılır.</p>
+<p><code><strong>var dizi1=["Ahmet","Mehmet","Hakan"];</strong></code></p>
+<p><code><strong>// Yöntem 1</strong></code></p>
+<p><code><strong>dizi1.[dizi1.length]="Mustafa";</strong></code></p>
+<p><code><strong>// Yöntem 2</strong></code></p>
+<p><code><strong>dizi1[10]="Samet";</strong></code></p>
+<p>Yukarıdaki örnekte ilk yöntemde length değeri 3’tür. 3 indis numarası boş olduğu için yeni eklenen öge 3 ögesinden sonra eklenir.</p>
+<p>İkinci yöntemde ise 10 değeri keyfi olarak tanımlanmıştır. 10 indis numarasına sahip değer boş olacağı için öge eklenirken hiçbir problem oluşturmaz.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</body>
+
+</html>

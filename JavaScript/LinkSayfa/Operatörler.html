@@ -1,0 +1,275 @@
+<!DOCTYPE >
+<title>JAVASCRIPT</title>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { 
+margin:0;
+font-size:100px;
+}
+
+ul {
+margin-top:0;
+padding:0;
+width:400;
+height:200;
+top:0;
+list-style-type:none;
+position:fixed;
+ }
+
+ul1{
+margin-top:0;
+padding:0;
+width:17%;
+background-color:#aabb;
+height:65%;
+list-style-type:none;
+position:fixed;
+overflow:auto;
+}
+ul2{
+list-style-type:none;
+margin-top:200;
+padding:0;
+overflow: auto;
+background-color:#aabbcc;
+position: fixed;
+top:0;
+width:200%;
+height:50;
+}
+
+
+li1 a {
+display:block;
+color:#2c4647;
+padding: 20px 8px;
+text-decoration:none;
+font-size:20px;
+}
+
+li2 a {
+display:block;
+color:#263a3d;
+padding:6px 680px;
+text-decoration:none;
+font-size:30px;
+}
+li1 a.active {
+background-color:#aabbcc;
+color: white;
+}
+
+li1 a:hover:not(.active) {
+background-color:#555;
+color:white;
+}
+
+div {
+margin-top:250;
+margin-left:19%;
+padding:1px 25px;
+height:1000px;
+font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+color:#263a3d;
+/*width:100%;
+height:100%;*/
+font-size:40px;
+text-align:left;
+margin-top:50;
+}
+
+li {
+display:inline;
+font-size:20px;
+}
+
+p {
+font-size:20px;
+color:#444444;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+ul1.first {
+  background: rgba(150, 150, 200, 0.3);
+}
+pre{
+font-size:15;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<ul>
+<li><img src="C:\Users\BEYZA NUR\Desktop\JavaScript\outputs\image1.jpg" width="1519" height="200"></li>
+</ul>
+<ul2>
+<li2><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/JavaScript.html#">JAVASCRIPT</a></li2>
+</ul2>
+
+<ul1 class="first">
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/JavaScript.html#">GİRİŞ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/KodYap%C4%B1s%C4%B1.html">KOD YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/De%C4%9Fi%C5%9Fkenler.html">DEĞİŞKENLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/Operat%C3%B6rler.html">OPERATÖRLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/VeriTipleri.html">VERİ TİPLERİ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/FonksiyonYap%C4%B1s%C4%B1.html">FONKSİYON YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/Olaylar.html">OLAYLAR</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/String-Say%C4%B1-Dizi.html">STRİNG-SAYI-DİZİ</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/IfYap%C4%B1s%C4%B1.html">IF YAPISI</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/D%C3%B6ng%C3%BCler.html">DÖNGÜLER</a></li1>
+<li1><a href="file:///C:/Users/BEYZA%20NUR/Desktop/JavaScript/LinkSayfa/TipD%C3%B6n%C3%BC%C5%9F%C3%BCmleri.html">TİP DÖNÜŞÜMLERİ</a></li1>
+</ul1>
+
+<div>
+<h1>JAVASCRIPT OPERATÖRLERİ</h1>
+
+   		<p>JavaScript dilinde değişkenler arası işlemler operatörlerle yapılır.</p>
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Aritmetik İşaretler</strong></p>
+<p>Sayısal veri içeren değişkenler arasında işlem yapmak için aşağıdaki operatör işaretlerini kullanırız.</p>
+
+
+<table>
+<tr>
+<th>İşaret</th>
+<th>Anlamı</th>
+<th>Örnek</th>
+<th>Sonuç</th>
+</tr>
+<tr>
+<td>+</td>
+<td>Toplama</td>
+<td>a=5+10;</td>
+<td>15</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Çıkarma</td>
+<td>a=10-5;</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Çarpma</td>
+<td>a=5*5;</td>
+<td>25</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Bölme</td>
+<td>a=6/2;</td>
+<td>3</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Mod</td>
+<td>a=10%3;</td>
+<td>1</td>
+</tr>
+<tr>
+<td>++</td>
+<td>Sayıyı Bir Artır</td>
+<td>a=2; a++;</td>
+<td>3</td>
+</tr>
+<tr>
+<td>--</td>
+<td>Sayıyı Bir Azalt</td>
+<td>a=2; a-;</td>
+<td>1</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Değişkene Değer Atama</strong></p>
+<p>Değişkene değer atamak için (=) işareti kullanırız. Eşittir işaretinin sol tarafında yer vereceğimiz matematiksel işaret ile değer atayabiliriz.</p>
+
+<table>
+<tr>
+<th>İşaret</th>
+<th>Anlamı</th>
+<th>Örnek</th>
+<th>Sonuç</th>
+</tr>
+<tr>
+<td>+=</td>
+<td>Kendi İle Topla</td>
+<td>a+=b;;</td>
+<td>a=5</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>Kendinden Çıkar</td>
+<td>a-=b;</td>
+<td>a=3</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>Kendiyle Çarp</td>
+<td>a*=b;</td>
+<td>a=14</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>Kendine Böl</td>
+<td>a/=b;</td>
+<td>a=6</td>
+</tr>
+<tr>
+<td>%=</td>
+<td>Mod</td>
+<td>a%=b;</td>
+<td>a=1</td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Eşittir Operatörü(=)</strong></p>
+<p>Bir değişkene değer atarken (=)eşittir operatörünü kullanırız. Örneğin <strong>x</strong> değişkenine 5 değerini verirken<strong> x=5;</strong> şeklinde yazılır.</p>
+<p>Eşittir operatörü aynı zamanda iki değişken arasında yapılan işlemin sonucunu yazmak için kullanılır.Örnek verecek olursak <strong>a=b+c;</strong> şeklinde yazabiliriz.</p>
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Metinsel Değerlerde İşlem Yapmak</strong></p>
+<p>İki metinsel veriyi (+) artı işareti ile birleştirebiliriz.</p>
+
+<pre style="color: #000000; background: #ffffff;"><span style="color: #800000; font-weight: bold;">var</span> isim <span style="color: #808030;">=</span> <span style="color: #800000;">"</span><span style="color: #0000e6;">İbrahim</span><span style="color: #800000;">"</span><span style="color: #800080;">;</span>
+<span style="color: #800000; font-weight: bold;">var</span> soyisim <span style="color: #808030;">=</span> <span style="color: #800000;">"</span><span style="color: #0000e6;">Lifeacode</span><span style="color: #800000;">"</span><span style="color: #800080;">;</span>
+<span style="color: #800000; font-weight: bold;">var</span> isimsoyisim <span style="color: #808030;">=</span> isim <span style="color: #808030;">+</span> <span style="color: #800000;">"</span> <span style="color: #800000;">"</span> <span style="color: #808030;">+</span> soyisim<span style="color: #800080;">;</span> 
+</pre>
+
+<p>&nbsp;</p>
+<p><strong><span style="color: #ff6600;">Sayı ve Metin İfadeleri Arasında Birlikte İşlem Yapmak</strong></p>
+<p>Sayısal iki değer toplanırken sonuç sayısal olarak belirtilir ve belirtilen sayılar arasında belirtilen işlem yapılır. Bir metin ve bir sayısal değer arasında işlem yapılırsa sonuç metinsel olarak ifade edilir.</p>
+
+<pre style="color: #000000; background: #ffffff;">a <span style="color: #808030;">=</span> <span style="color: #008c00;">3</span><span style="color: #808030;">+</span><span style="color: #008c00;">2</span><span style="color: #800080;">;</span>
+b<span style="color: #808030;">=</span> <span style="color: #800000;">"</span><span style="color: #0000e6;">3</span><span style="color: #800000;">"</span> <span style="color: #808030;">+</span> <span style="color: #008c00;">2</span><span style="color: #800080;">;</span>
+c<span style="color: #808030;">=</span> <span style="color: #800000;">"</span><span style="color: #0000e6;">Mehmet</span><span style="color: #800000;">"</span> <span style="color: #808030;">+</span> <span style="color: #008c00;">1</span><span style="color: #800080;">;</span>
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</div>
+
+
+</body>
+
+</html>
